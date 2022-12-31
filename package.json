@@ -1,0 +1,52 @@
+{
+  "name": "vvphpdollar",
+  "displayName": "vvPHPDollar",
+  "description": "Type $ (dollar sign) with 'vv' in PHP, HTML, Javascript and Typescript",
+  "version": "1.0.0",
+  "license": "MIT",
+  "publisher": "esyede",
+  "author": "Suyadi <suyadi.1992@gmail.com>",
+  "keywords": [
+    "variable",
+    "dollar",
+    "php",
+    "html",
+    "javascript",
+    "typescript"
+  ],
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/html.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/php.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
+      }
+    ]
+  },
+  "homepage": "https://github.com/esyede/vvphpdollar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esyede/vvphpdollar"
+  },
+  "bugs": {
+    "url": "https://github.com/esyede/vvphpdollar/issues"
+  }
+}

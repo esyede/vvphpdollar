@@ -1,0 +1,9 @@
+{
+    "variable": {
+        "prefix": "vv",
+        "body": [
+            "$"
+        ],
+        "description": "Add dollar sign"
+    }
+}
